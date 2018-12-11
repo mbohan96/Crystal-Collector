@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	
+	<title>Mugshot Mayhem</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="header">
+		<h1>Mugshot Mayhem</h1>
+	</div>
+	<div class="instructions">
+		<h3>Here's how you play the game</h3>
+		</br>
+		<ol>
+			<li>You will be given a random number at the start of the game.<span>"Number To Get"</span></li>
+			<li>There are four celebrity mugshots below.</li>
+			<ul>
+				<li id="Justin">Justin</li>
+				<li id="Lindsay">Lindsay</li>
+				<li id="Paris">Paris</li>
+				<li id="Khloe">Khloe</li>
+			</ul>
+			<li>By clicking on a mugshot, you will add a specific amount of points to your total score.</li>
+			<li>You win the game by matching your total score to the random number.</li>
+			<li>You lose the game if your total score goes above the random number.</li>
+			<li>The value of each mugshot is hidden from you until you click on it.</li>
+			<li>Each time when the game starts, the game will change the values of each mugshot.</li>
+		</ol>
+	</div>
+	<div class="numberToMatch">
+		<h2>Number To Get:
+			<span id= "randomNumber"></span>
+		</h2>
+	</div>
+	<div class="winsAndLosses">
+		<h2>Wins:
+			<span id= "numberWins"></span>
+			</br>
+			Losses: 
+			<span id= "numberLosses"></span>
+		</h2>
+	</div>
+	<div class="mugshots">
+		<img src="https://vignette.wikia.nocookie.net/celebrity-deaths/images/7/77/Justin_Bieber_Mugshot.jpg/revision/latest?cb=20140429044437" class=celeb id="one" alt="Justin Mug">
+		<img src="http://www3.pictures.zimbio.com/mp/6WYiXGfHNohl.jpg" class=celeb id="two" alt="Paris Mug">
+		<img src="https://pmchollywoodlife.files.wordpress.com/2010/09/092410_mugshot_02.jpg?w=544" class=celeb id= "three" alt="Lindsay Mug">
+		<img src="https://www.usmagazine.com/wp-content/uploads/1367256616_khloe-kardashian-560-8753b7e7-3ade-420f-b7bd-3410c633609b.jpg?w=200" class=celeb id= "four" alt="Kardashian Mug">
+	</div>
+	<div class="userTotal">
+		<h2>Your total score is:
+			<span id="finalTotal"></span>
+		</h2>
+	</div>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="Javascript.js"></script>
+</body>
+</html>

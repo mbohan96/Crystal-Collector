@@ -1,0 +1,72 @@
+body{
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/06/Zebra-Print-Wallpaper-HD.png;");
+    color: hotpink
+}
+div{
+	background-color: white;
+	margin: 10px;
+	width: 25%
+}
+div{
+	border: solid 2px purple;
+	padding: 10px;
+}
+h1, h3, span{
+	font-weight: bold;
+	text-align: center;
+}
+h1{
+	font-size: 30pt;
+}
+ol{
+	list-style: decimal inside; 
+}
+ul {
+	list-style: disc inside;
+	text-indent: 20px;
+}
+/* Specfic Elements*/
+div.header, div.mugshots{
+	background-color: white;
+}
+div.header, div.instructions{
+	width: 50%;
+}
+/* Classes */
+.numberToMatch, .winsAndLosses{
+	float: left;
+	width: 15%;
+    height: 60px;
+    background-color: cornflowerblue
+}
+.userTotal{
+	width: 40%;
+	height: 100px;
+}
+.mugshots{
+    clear: both;
+    background-color: cornflowerblue
+    
+}
+.celeb{
+	height: 120px;
+	margin: 20px;
+}
+/* IDs */
+#Justin{
+    color: #c73088;
+    font-weight: bold;
+}
+#Lindsay{
+    color: #c73088;
+    font-weight: bold
+}
+#Paris{
+    color: #c73088;
+    font-weight: bold
+}
+#Khloe{
+    color: #c73088;
+    font-weight: bold;
+    
+}
